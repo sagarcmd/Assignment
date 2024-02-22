@@ -2,3 +2,80 @@ p{
     color: red;
     font-style: italic;
 }
+To provide you with a comprehensive understanding of CSS code, I will break it down into different sections:
+
+CSS Basics: CSS stands for Cascading Style Sheets. It is a language used to style and layout web pages. To use CSS, you need to create a separate .css file or include the CSS code within the HTML file.
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+</body>
+</html>
+/* styles.css */
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+p {
+  color: green;
+  font-size: 16px;
+}
+Selectors: In CSS, selectors are used to target specific HTML elements. You can select elements by their tag name, class, or ID.
+/* Select by element */
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+/* Select by class */
+.important {
+  font-weight: bold;
+}
+
+/* Select by ID */
+#main-content {
+  background-color: lightgrey;
+}
+CSS Properties and Values: CSS properties control various aspects of an element’s appearance, such as color, font, size, spacing, and positioning.
+h1 {
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: green;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+CSS Inheritance and Cascade: CSS styles are inherited from parent elements to child elements. The cascade determines how conflicting styles are resolved based on their specificity and order of appearance in the stylesheet.
+CSS Layout Techniques: CSS offers various layout techniques to create responsive and flexible web layouts. These include floats, flexbox, and grid layout.
+/* Flexbox example */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container div {
+  flex-basis: 30%;
+  padding: 20px;
+}
+
+/* Grid layout example */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-container div {
+  padding: 20px;
+}
+Responsive Design: CSS media queries allow you to apply different styles based on the device’
